@@ -75,3 +75,39 @@
     overflow: hidden;
     height: 100Px;
 }
+.content{
+
+    display: flex;
+   
+    
+
+}
+.content .top{
+     
+        color: rgb(236, 72, 168);
+        font-size: 1.5rem;
+        font-weight: bolder;
+        width: 50%;
+
+}
+.content .text{
+        color: blue;
+        width: 50%;
+        
+    
+}
+.content .text p{
+    margin-top: 1rem;
+    
+}
+.photo {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+.photo img{
+    width: 90%;
+    height: 100%;
+    
+    
+}
