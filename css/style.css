@@ -149,17 +149,23 @@
     background-color: darkcyan;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: 200px 70px;
 }
 .grid_footer .logo{
     grid-column: 1/4;
-  
+    font-size: 5rem;
+    color: orange;
+    text-align: center;
+    margin-top: 50Px;
    
 }
 .grid_footer .box{
     grid-column: 4/13;
     display: flex;
     gap: 5rem;
+    margin-top: 30px;
+    font-size: 1.6rem;
+    color: #6609e0;
   
    
 }
@@ -167,13 +173,31 @@
     display: flex;
     text-decoration: none;
     margin-top: 1rem;
+    font-size: 1.4rem;
+
+    color: #11040e;
     
     
    
 }
-.grid_footer .line hr{
-    
+.grid_footer .line{
     grid-column: 1/13;
-    
+    grid-row: 2;
+    background-color: darkcyan;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #0f0e01;
+   
+   
+}
+.grid_footer .line p{
+    grid-column: 1/13;
+    grid-row: 2;
+    background-color: darkcyan;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #0f0e01;
+    margin-top: 15px;
+   
    
 }
