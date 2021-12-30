@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+.nav{
+    height: 60Px;
+    background-color: aqua;
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    justify-content: space-between;
+}
+.nav .logo{
+   width: 200px;
+   text-align: center;
+   font-size: 3rem;
+   color: brown;
+   font-weight: 900;
+
+}
+.nav .menu{
+   margin: 20px;
+   
+}
+.nav .menu a{
+    color: #0e0c0c;
+    text-decoration: none;
+    padding-right: 30px;
+
+}
+.header{
+    display: flex;
+    height: 250px;
+    background-color: #edf1f8;
+    overflow: auto;
+}
+.header .topic{
+    width: 50%;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.header .topic p{
+    font-size: 1rem;
+    text-align: center;
+
+    line-height: 2rem;
+    margin-left: 20px;
+    
+    
+}
+.header .topic a{
+    
+    font-size: 1.2rem;
+    background-color: rgb(245, 211, 20);
+    border-radius: 20px;
+    padding: 8px;
+
+    text-decoration: none;
+    
+}
+.header .photo{
+    display: flex;
+    align-items: center;
+    
+   
+}
+.header .photo img{
+    width: 100%;
+    height: 100%;
+    margin-top: -10%;
+    margin-left: 100px;
+}
+.container{
+    background-color: hotpink;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    height:600px;
+    
+}
+ .container .about, .container .detail{
+    grid-column: span 4;
+    text-align: center;
+   
+   
+
+}
+.container .photo{
+    grid-column: span 4;
+   
+    height: 340px;
+  
+
+ 
+    
+}
+.container .photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    align-items: center;
+    padding: 30px;
+   
+
+ 
+
+}
+
+.container .pofile{
+    grid-column: span 12;
+    height: 150px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px;
+   
+
+}
+.container .pofile p{
+    font-size: 1.5rem;
+    margin-top: 10px;
+   
+
+}
